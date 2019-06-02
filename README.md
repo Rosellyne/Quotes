@@ -6,24 +6,37 @@ Its an online application that show great quotes,June 3rd ,2019
 
 ## Desription
 
+The Quotes by Angular is simply a webpage that allows users to enter quotes, and display them back to the user
+
+Once the user submits the quotes, the quote appears on the QUOTES Section in the webpage.
+
+The author of the quote and the number of likes the quotes have are hidden in the details section. Pressing the details section will reveal the details.
+
+The details section has a delete button. Pressing the delete button will delete the entire quote from the page.
+
+A user can like or dislike a quote. 
 
 
-## Code scaffolding
+## Program Behaviour
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Link to the live site
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Known Bugs
 
-## Running unit tests
+No bugs so far.if found,email me at elijahroselyne@gmail.com
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installations
 
-## Running end-to-end tests
+### Requirements
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
++ VS code
++ Chrome browser
 
-## Further help
+## Technologies Used
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
++ HTML
++ Bootstrap
++ Angular JS
+
+## License
