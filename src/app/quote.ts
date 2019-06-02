@@ -1,9 +1,9 @@
-export class Quote{
+export class Quote {
 
   constructor(
-    public Author: string,
+    public author: string,
     public submiter: string,
-    public Quote:string,
+    public quote: string,
   ) {  }
 
 }

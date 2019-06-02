@@ -1,23 +1,26 @@
-<div class ="form-group">
+<div class="form-group">
   <div class="container">
     <h1> Quotes</h1>
-    <form #quoteForm='ngForm'>
+    <form #quoteForm="ngForm">
       <div class="form-group">
-        <label for="name">Author</label>
-        <input type="text" class="form-control" id="name" required>
+        <label >Author</label>
+        <input type="text" class="form-control" id="author" required  #author="ngModel" [class.is.invalid]="author.invalid && author.touched"
+        [(ngModel)]="newQuote.author" name="author">
+        <small class="text-danger" [class.d-none]="author.valid ||author.untouched">  Author is required</small>
       </div>
 
       <div class="form-group">
-        <label for="name">submitter</label>
-        <input type="text" class="form-control" id="alterEgo">
+        <label >submitter</label>
+        <input type="text" class="form-control" id="submitter" required[(ngModel)]="newQuote.submitter" name="name">
       </div>
 
       <div class="form-group">
-        <label for="quote">quote</label>
-        <textarea class ="form-control" id="quote" rows="4" required></textarea>
+        <label >quote</label>
+        <textarea class ="form-control" id="quote" rows="4" required [(ngModel)]= "newQuote.quote" name="quote"></textarea>
       </div>
 
-      <button type="submit" class="btn btn-primary">add Quote</button>
+      <button type="submit" class="btn btn-success">add Quote</button>
 
     </form>
   </div>
+</div>
