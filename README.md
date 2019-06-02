@@ -1,10 +1,12 @@
 # QuotesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
+Its an online application that show great quotes,June 3rd ,2019
 
-## Development server
+### By Roselyne Moraa
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Desription
+
+
 
 ## Code scaffolding
 
