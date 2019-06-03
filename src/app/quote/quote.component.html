@@ -1,5 +1,19 @@
-<div class=''*ngFor="let quote of quotes">
-  <p>{{quote.quote}}</p>
 
-
+<div class ="container">
+<app-quote-form (addQuote)="addNewQuote($event)">
+</app-quote-form>
 </div>
+    <div class="" *ngFor="let quote of quotes;let i=index">
+      <div class="details">
+        <p> Quote : {{quote.quote}}</p>
+        <p> Author:  {{quote.author}}</p>
+       </div>
+      <ul>
+        <p>{{quote.author|titlecase}} posted on{{quote.completeDate|date}}</p>
+      </ul>
+      <button class="btn btn-success" (click)="upVote()">Up Vote{{count}}</button>
+      <button class="btn btn-primary" (click)="downVote()">Down Vote{{sum}}</button>
+      <app-quote-details  [quote]="quote" (isCompelete)="deleteQuote($event,i)">
+      </app-quote-details>
+    </div>
+
