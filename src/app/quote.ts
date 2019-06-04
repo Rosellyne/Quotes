@@ -1,5 +1,7 @@
 export class Quote {
+  public showDetails: boolean;
   constructor(
+    public id: number,
     public author: string,
     public submiter: string,
     public quote: string,
@@ -7,6 +9,7 @@ export class Quote {
     public details: string,
 
   ) {
-   }
+    this.showDetails = false;
+  }
 
 }

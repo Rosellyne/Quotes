@@ -18,7 +18,11 @@ A user can like or dislike a quote.
 
 
 ## Program Behaviour
-
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 ## Link to the live site
 
