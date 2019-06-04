@@ -14,15 +14,15 @@ The author of the quote and the number of likes the quotes have are hidden in th
 
 The details section has a delete button. Pressing the delete button will delete the entire quote from the page.
 
-A user can like or dislike a quote. 
+A user can upvote or downvote a quote. 
 
 
 ## Program Behaviour
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Behaviour            |  Input       | Output                        |   
+|---------- -----------|--------------|-------- ----------------------|
+|add quote             | click        | adds the typed quote          |
+|delete quote          | click delete | it delete the selected  quote |
+|upvotes and downvotes |  click       | 0,1,2,3,4                     |
 
 ## Link to the live site
 
@@ -44,3 +44,4 @@ No bugs so far.if found,email me at elijahroselyne@gmail.com
 + Angular JS
 
 ## License
+click *licence*(https://github.com/Rosellyne/Quotes/blob/master/LICENSE)
