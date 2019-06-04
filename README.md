@@ -17,6 +17,7 @@ The details section has a delete button. Pressing the delete button will delete 
 A user can upvote or downvote a quote.
 
 ## Program Behaviour
+<<<<<<< HEAD
 
 | Behaviour             | Input        | Output                       |
 | --------------------- :| ------------ :| ---------------------------- :|
@@ -26,6 +27,16 @@ A user can upvote or downvote a quote.
 
 ## Link to the live site
 https://rosellyne.github.io/Quotes/
+=======
+|: Behaviour            :|  Input       |: Output                        |   
+|---------- -----------|--------------|-------- ----------------------|
+|add quote             | click        | adds the typed quote          |
+|delete quote          | click delete | it delete the selected  quote |
+|upvotes and downvotes |  click       | 0,1,2,3,4                     |
+
+## Link to the live site
+ https://rosellyne.github.io/Quotes/
+>>>>>>> gh-pages
 ## Known Bugs
 
 No bugs so far.if found,email me at elijahroselyne@gmail.com
