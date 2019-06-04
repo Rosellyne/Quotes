@@ -14,18 +14,18 @@ The author of the quote and the number of likes the quotes have are hidden in th
 
 The details section has a delete button. Pressing the delete button will delete the entire quote from the page.
 
-A user can upvote or downvote a quote. 
-
+A user can upvote or downvote a quote.
 
 ## Program Behaviour
-| Behaviour            |  Input       | Output                        |   
-|---------- -----------|--------------|-------- ----------------------|
-|add quote             | click        | adds the typed quote          |
-|delete quote          | click delete | it delete the selected  quote |
-|upvotes and downvotes |  click       | 0,1,2,3,4                     |
+
+| Behaviour             | Input        | Output                       |
+| --------------------- :| ------------ :| ---------------------------- :|
+| add quote             | click        | adds the typed quote         |
+| delete quote          | click delete | it delete the selected quote |
+| upvotes and downvotes | click        | 0,1,2,3,4                    |
 
 ## Link to the live site
-
+https://rosellyne.github.io/Quotes/
 ## Known Bugs
 
 No bugs so far.if found,email me at elijahroselyne@gmail.com
@@ -34,14 +34,14 @@ No bugs so far.if found,email me at elijahroselyne@gmail.com
 
 ### Requirements
 
-+ VS code
-+ Chrome browser
+- VS code
+- Chrome browser
 
 ## Technologies Used
 
-+ HTML
-+ Bootstrap
-+ Angular JS
+- Bootstrap
+- Angular JS
 
 ## License
-click *licence*(https://github.com/Rosellyne/Quotes/blob/master/LICENSE)
+
+click _*licence_*(https://github.com/Rosellyne/Quotes/blob/master/LICENSE)
