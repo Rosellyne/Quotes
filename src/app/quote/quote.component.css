@@ -4,9 +4,14 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
  .try{
+   background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGpJt6C3CQwPqqc7b9i7UaoIse7wiBPIlLU8NavZIXazjs4X0u');
+   background-position:center;
+   background-repeat:no-repeat;
+   background-size: cover;
+   height: 850px;
 }
 .container{
-  background-color:rgb(183, 183, 211);
+  background-color:greenyellow;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

@@ -18,7 +18,7 @@ A user can upvote or downvote a quote.
 
 
 ## Program Behaviour
-| Behaviour            |  Input       | Output                        |   
+|: Behaviour            :|  Input       |: Output                        |   
 |---------- -----------|--------------|-------- ----------------------|
 |add quote             | click        | adds the typed quote          |
 |delete quote          | click delete | it delete the selected  quote |
